@@ -1,0 +1,97 @@
+#c1{
+  width: 100%;
+   /* max-height: 100%;
+  overflow: auto;  */
+  height: 100%;
+ 
+  position: absolute;
+  z-index: 999;
+ transition: all 1s;
+}
+
+.back{
+    background-color: aqua;
+  }
+/* 标题 */
+.biaoti{
+  width: 82px;
+  height: 200px;
+  background: url('/img/caipin.png') no-repeat;
+      background-size: auto;
+  background-size: 100% 100%;
+  position: absolute;
+  right: 9%;
+  top: 20px;
+
+}
+
+  .btn{
+
+  text-align: center;
+  }
+  .table{
+  width: 80%;
+  background-color: aqua;
+   margin-top: 10px;
+     margin-left: 10px;
+   border-radius: 20px;
+   overflow: hidden;
+   transition: all 0.5s;
+  }
+  .table:hover{
+   box-shadow: 10px 10px 15px rgb(123, 123, 123);
+  }
+  
+  .el-button--info{
+    background: #1b1b1b; 
+  border: 1px solid rgb(37, 37, 37);
+  color: #fff;
+  }
+  .el-button--danger:hover{
+    background: #656565;
+   border: 1px solid rgb(37, 37, 37);
+  }
+
+  
+
+  .sousuo{
+    width: 80%;
+    height: 80px;
+    margin-top: 10px;
+    margin-left: 10px;
+    background-color: rgb(255, 255, 255);
+   line-height: 80px;
+   padding: 0 20px;
+   border-radius: 20px;
+   overflow: hidden;
+    transition: all 0.5s;
+    position: relative;
+   
+  }
+  .sousuo:hover{
+     box-shadow: 10px 10px 15px rgb(123, 123, 123);
+  }
+  .fenye{
+    margin: 20px auto;
+  width: 420px;
+    height: 33px;
+  }
+  .btn_add{
+    width: 100px;
+    height: 40px;
+    border: none;
+    border-radius: 10px;
+    background-color: rgb(11, 142, 250);
+    color: #fff;
+   position: absolute;
+  top: 21px;
+  right: 47px;
+    transition: all 0.2s;
+  }
+  .btn_add:hover{
+     background-color: rgb(105, 185, 250);
+  }
+  
+  
+  
+  

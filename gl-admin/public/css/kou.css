@@ -1,0 +1,543 @@
+.tou{
+    height: 80px;
+    width: 100%;
+     background: #3791ec;
+    position: relative;
+    line-height: 80px;
+    box-shadow: 5px 5px 10px rgb(53, 53, 53);
+  }
+  .tou::before{
+    content: "康康奶茶--点餐系统";
+    color: #fff;
+    font-weight: 800;
+    margin-left: 180px;
+  }
+  .dg_tx{
+   float: right;
+  margin-right: 180px;
+  
+  }
+  .img_kuai{
+    
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background: floralwhite;
+    vertical-align: middle;
+    overflow: hidden;
+  }
+  .img_kuai img{
+   width: 100%;
+   height: 100%;
+   transform: translateY(-5px);
+  }
+  
+  .img_name{
+    color: rgb(255, 255, 255);
+    margin-left: 10px;
+  }
+  .tc_btn{
+    float: right;
+    border-radius: 10px;
+    width: 60px;
+    height: 30px;
+    border: none;
+    margin-top: 25px;
+    margin-left: 50px;
+    background: none;
+    border: 1px solid rgb(251, 242, 231);
+    color: #fff;
+    cursor: pointer;
+    transition: all 0.3s;
+  }
+  .tc_btn i{
+    cursor: pointer;
+     color: #fff;
+    font-size: 17px;
+    vertical-align: middle;
+  }
+
+  .tc_btn:hover{
+    background: rgb(219, 23, 23);
+  }
+  .dg_nav{
+     position: absolute;
+     width: 60%;
+    height: 70%;
+    background: #fff;
+      padding: 20px 20px;
+      right: 0;
+      top: 80px;
+      overflow: hidden;
+  }
+  
+  .dg_daoan{
+    width: 95%;
+    height: 60px;
+    position: absolute;
+    z-index: 2;
+    background: rgb(255, 255, 255);
+    transition:all 0.5s;
+    overflow: hidden;
+  
+  }
+  .dg_daoan:hover{
+  height: 120px;
+  }
+  
+  .dg_daoan ul{
+     list-style-type: none;
+     display: flex;
+    flex-wrap: wrap;
+    align-content:flex-start;
+   
+  }
+  .dg_daoan ul li{
+    float: left;
+    width: 13%;
+    height: 40px;
+    border:1px solid rgb(202, 202, 202);
+    text-align: center;
+    line-height: 40px;
+    margin: 10px 1.8%;
+    border-radius: 5px;
+    transition: all 0.3s;
+  
+  }
+  .dg_daoan ul li:hover{
+    background: #3791ec;
+    color: #fff;
+    cursor: pointer;
+  }
+  
+  .dg_nr{
+    width: 100%;
+    height: 85%;
+   position: absolute;
+   top: 70px;
+    display: flex;
+     flex-wrap: wrap;
+     align-content:flex-start;
+     overflow: auto;
+     /* text-align: center; */
+    
+    
+  }
+  .dg_nr>span{
+    width: 30%;
+    height: 190px;
+    margin: 10px 10px;
+    padding: 2px 3px;
+    border: 1px solid rgb(199, 199, 199);
+  }
+  
+  .dg_nr img{
+    width: 100%;
+    height: 100%;
+  
+  }
+  
+  .dg_nr span .nr_da{
+    width: 100%;
+    height: 100%;
+      position: relative;
+  }
+  
+  .nr_da .icon {
+   width: 100%;
+   height: 100%;
+   position: absolute;
+   background-color: black;
+   top: 0;
+   left: 0;
+   z-index: 10;
+   opacity: 0;
+   transition: all 0.4s;
+  }
+  
+  
+  .nr_da i{
+    display: block;
+    width: 60px;
+    height: 60px;
+    position: absolute;
+    color: rgb(247, 247, 247);
+    font-size: 60px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    opacity: 0;
+    transition: all 0.4s;
+    z-index: 20;
+    cursor: pointer;
+  }
+  .nr_da:hover .icon{
+    opacity: 0.5;
+  }
+  .nr_da:hover i{
+    opacity: 1;
+  }
+  
+  .dg_nr .dg_hei{
+    position: absolute;
+    width: 100%;
+    height: 35px;
+    background-color: rgb(61, 61, 61);
+    left: 0;
+    bottom: 0;
+    opacity: 0.7;
+  }
+  .dg_nr .dg_hei2{
+     position: absolute;
+    width: 100%;
+    height: 35px;
+    left: 0;
+    bottom: 0;
+    color: #fff;
+     font-weight: 800;
+    font-size: 15px;
+   
+  }
+  .dg_nr .dg_hei2>span{
+    color: rgb(250, 197, 91);
+  }
+  
+  #gwc{
+    position: absolute;
+    width: 27%;
+    height: 73%;
+    padding: 20px 35px;
+    z-index: 2;
+    top: 61px;
+    left: 72px;
+    background: url(/img/购物车.png) no-repeat;
+    background-size: 100% 109%;
+    text-align: center;
+    
+  }
+  
+  #gwc .gwc_img{
+    display: block;
+    width: 55px;
+    height: 55px;
+    border-radius: 50%;
+    margin: 10px auto;
+    overflow: hidden;
+  }
+  .gwc_img img{
+    width: 100%;
+    height: 100%;
+  }
+  .text_dc{
+    height: 1%;
+    background: #3791ec;
+  }
+  .ding_da{
+   height: 60%;
+  /* border-bottom: 1px solid rgb(77, 77, 77); */
+   overflow: auto;
+  }
+  
+  .ding_da li{
+    height: 80px;
+    border-bottom: 1px dashed rgb(77, 77, 77);
+    display: flex;
+    line-height: 80px;
+      font-weight: 800;
+  }
+  .ding_da li span{
+    overflow: hidden;
+    /* 不换行 */
+    white-space: nowrap;
+    /* 文本的隐藏方式 */
+    text-overflow: ellipsis;
+    flex: 2;
+  }
+  .ding_da li>span:nth-child(2){
+    flex: 1;
+    color: rgb(10, 146, 224);
+  
+  }
+  
+  .ding_btn{
+          width: 100px;
+          height: 30px;
+          display: flex;
+          line-height: 30px;
+          text-align: center;
+          border: 1px solid rgb(161, 161, 161);
+          border-radius: 20px;
+          margin: 20px auto;
+          
+  }
+  
+  .ding_btn span{   
+      flex: 1;
+       border-right: 1px solid rgb(161, 161, 161);
+      }
+  
+  .ding_btn span:nth-child(3){
+  
+     border-right: none;
+      }
+  
+  .gwc_btn{
+    height: 16%;
+  
+  }
+  
+   .gwc_btn button{
+    border: none;
+    width: 70%;
+    height: 38px;
+    background: none;
+    border: 1px solid rgb(118, 118, 118);
+    margin: 8% 20px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: all 0.3s;
+   }
+
+   .gwc_btn button:hover{
+     box-shadow: 0 0 10px rgb(56, 56, 56);
+   }
+   
+  
+   #fukuan{
+     display: flex;
+     position: absolute;
+     padding: 20px 35px;
+     z-index: 2;
+     width: 27%;
+     height: 17%;
+     background: #fff;
+     bottom: 0;
+     left: 72px;
+      background: url(/img/购物车2.png) no-repeat;
+    background-size: 100% 106%;
+    text-align: center;
+    line-height: 80px;
+  
+  }
+  #fukuan span{
+     
+    flex: 1;
+  }
+  #fukuan span:nth-child(2){
+    font-size: 30px;
+    color: rgb(18, 148, 241);
+    flex: 2;
+  }
+  #fukuan span:nth-child(3){
+    flex: 3;
+  }
+  #fukuan button{
+    border: none;
+    width: 100px;
+    height: 40px;
+    color: #fff;
+    background: rgb(89, 89, 89);
+    font-size: 17px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .dg_gn{
+    
+    width: 60%;
+    height:14%;
+    line-height: 100px;
+    background: #fff;
+   margin-top:10px;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    display: flex;
+    text-align: center;
+  }
+  .dg_gn span{
+    flex: 1;
+    color: rgb(78, 78, 78);
+    font-size: 20px;
+    transition: all 0.4s;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+  }
+  
+.ii{
+  
+   
+    color: rgb(78, 78, 78);
+  }
+  
+  .dg_gn span:hover{
+    color: #fff;
+     background: #3791ec;
+  }
+  .dg_gn span:hover i{
+     color: #fff;
+  }
+ 
+  .num{
+      cursor: pointer;
+  }
+    
+ #dan_da{
+   width: 100%;
+   height: 100%;
+   /* background-color: #3791ec; */
+   overflow: auto;
+ 
+ }   
+
+ .dan_ui{
+   list-style-type: none;
+ }
+
+ .dan_ui li{
+   width: 22.5%;
+   height: 150px;
+   background-image: linear-gradient(to bottom right, rgb(246, 250, 147), rgb(255, 179, 0));
+   border-radius: 10px;
+   float: left;
+   margin: 10px 1%;
+   box-shadow: 0 0 5px rgb(94, 94, 94);
+   transition: all 0.5s;
+   text-align: center;
+   padding: 10px 10px;
+   color: rgb(255, 255, 255);
+   position: relative;
+   cursor: pointer;
+ }
+
+.dan_ui li:hover{
+  transform: scale(1.05);
+}
+
+.dan_ui p{
+  overflow: hidden;
+color: rgb(92, 92, 92);
+  font-size: 12px;
+  opacity: 0;
+  transition: all 0.3s;
+}
+
+.dan_ui li:hover p{
+  opacity: 0.8;
+}
+
+
+ .dan_ui h1{
+  height: 60px;
+  font-size: 40px;
+  color: rgb(255, 255, 255);
+  border-bottom: 1px solid rgb(173, 173, 173);
+ }
+
+ .dan_ui b{
+   float: right;
+   font-size: 20px;
+   margin-top: 10px;
+ }
+
+ .dan_ui li div{
+   width: 100%;
+   height: 100%;
+   background-color: rgb(12, 12, 12);
+   position: absolute;
+   top: 0;
+   left: 0;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   transition: all 0.4s;
+   opacity: 0.5;
+   
+ }
+
+ .dan_ui li button{
+        position: absolute;
+        border: none;
+        background: rgb(234, 65, 65);
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%,-50%);
+        width: 80px;
+        height: 40px;
+        border-radius: 10px;
+        color: #fff;
+        cursor: pointer;
+ }
+
+
+ .dan_ui li:nth-child(2n+1){
+  background-image: linear-gradient(to bottom right, rgb(142, 206, 251), rgb(14, 85, 251));
+
+ }
+ .dan_ui  span{
+  display: block;
+  width: 35px;
+  height: 35px;
+  background: #ee1414;
+  color: #fff;
+  border-radius: 50%;
+  position: absolute;
+  right: 0;
+  font-size: 10px;
+  top: -8px;
+  line-height: 40px;
+  box-shadow: 2px 2px 5px rgb(60, 60, 60);
+ }
+
+
+ .alert{
+   position: absolute;
+   top: 50%;
+   left: 50%;
+   transform: translate(-50%,-50%);
+   width: 450px;
+   height: 250px;
+   background: url(/img/alert.png) no-repeat;
+   background-size: 100% 100%;
+   z-index: 30;
+   color: #fff;
+   padding: 26px 31px;
+ }
+
+ .alert2{
+   width: 100%;
+   height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+ }
+
+ .alert2 span{
+    width: 80%;
+    height: 20px;
+    margin: 10px auto;
+ }
+
+ .alert2 span:nth-child(2)::before{
+ content: "";
+ display: inline-block;
+ width: 17px;
+ height: 20px;
+
+ }
+ .alert2 span:nth-child(3)::before{
+  content: "";
+  display: inline-block;
+  width: 17px;
+  height: 20px;
+
+  }
+  
+.dg_text{
+ position: absolute;
+ top: 50%;
+ left: 50%;
+ transform: translate(-50%,-50%);
+}

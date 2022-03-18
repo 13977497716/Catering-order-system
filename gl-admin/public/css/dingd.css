@@ -1,0 +1,62 @@
+#dd_da{
+    width: 75%;
+    overflow: hidden;
+    margin-top: 50px;
+    margin-left: 10px;
+    border-radius: 20px 20px 0px 0px;
+
+}
+
+/* 标题 */
+.biaoti3{
+    width: 82px;
+    height: 200px;
+    background: url('/img/dd.png') no-repeat;
+        background-size: auto;
+    background-size: 100% 100%;
+    position: absolute;
+    right: 9%;
+    top: 20px;
+  
+  }
+
+  .dd_del{
+      width: 75%;
+      height: 70px;
+      background-color: brown;
+      margin-top: 2%;
+      margin-left: 10px;
+      display: flex;
+      border-radius: 0 0 20px 20px;
+      overflow: hidden;
+    
+  }
+  .dd_select{
+    
+      height: 70px;
+      background-color: burlywood;
+     flex: 3;
+  
+  }
+  .dd_btn{
+      height: 70px;
+      background-color: rgb(16, 128, 239);
+      flex: 7;
+      text-align: center;
+      line-height: 70px;
+      font-size: 18px;
+      color: #fff;
+      cursor: pointer;
+      transition: all 0.2s;
+      
+  }
+
+  .dd_btn:hover{
+      background-color: rgb(243, 67, 67);
+  }
+ 
+
+ /* .el-input__inner{
+      height: 70px !important;
+
+  } */

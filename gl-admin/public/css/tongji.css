@@ -1,0 +1,50 @@
+#tongji{
+    width: 100%;
+     /* max-height: 100%;
+    overflow: auto;  */
+    height: 100%;
+   position: absolute;
+    z-index: 999;
+   transition: all 1s;
+  }
+
+.echs{
+    width: 80%;
+    display: flex;
+    height: 90%;
+
+}
+
+.echs_left,.echs_right{
+    flex: 1;
+   display: flex;
+    padding: 10px;
+    height: 100%;
+  flex-direction: column;
+}
+
+.paid{
+    height: 45%;
+    background-color: rgb(253, 253, 253);
+    box-shadow: 0 0 5px rgb(77, 77, 77);
+    margin-top: 20px;
+    overflow: hidden;
+    border-radius: 10px 10px 0 0;
+   
+}
+
+.paid h2{
+   
+    text-align: center;
+    
+}
+.paid .tu{
+    width: 100%;
+    height: 87%;
+    background-color: rgb(255, 255, 255);
+    padding: 3%;
+}
+
+
+
+

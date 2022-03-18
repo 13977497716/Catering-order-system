@@ -1,0 +1,114 @@
+#c2{
+    width: 100%;
+     /* max-height: 100%;
+    overflow: auto;  */
+    height: 100%;
+    position: absolute;
+    z-index: 999;
+  }
+  
+  .biaoti2{
+
+      width: 82px;
+      height: 200px;
+      background: url('/img/caixi.png') no-repeat;
+      background-size: 100% 100%;
+      position: absolute;
+      right: 9%;
+      top: 20px
+  }
+  #caixi_da{
+      width: 80%;
+      height: 70%;
+     
+      /* display: flex;
+      justify-content:space-between;
+      flex-wrap: wrap;
+      align-content: flex-start; */
+      overflow: auto;
+       perspective: 100px;
+       /* 火狐隐藏滚动条 */
+       scrollbar-width: none; 
+       /* ie10+ 隐藏滚动条 */
+       -ms-overflow-style: none;
+  }
+  
+  /* 浏览器滚动条兼容处理 */
+  /* 谷歌 */
+  #caixi_da::-webkit-scrollbar{
+    display: none;
+  }
+  
+  
+  .kuai{
+     transform: translateZ(0px);
+    width: 25%;
+    height: 170px;
+    box-shadow: -5px 5px 10px rgb(104, 104, 104);
+    background-color: rgb(253, 253, 253);
+   margin: 10px 10px;
+   text-align: center;
+   padding: 10px 10px;
+  transition: all 0.5s;
+  margin: 10px 4%;
+  float: left;
+  }
+  
+  .kuai:hover{
+    transform: translateZ(2px);
+  }
+  
+  .jia{
+    
+    color: rgb(125, 125, 125);
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    font-size: 90px;
+  
+  }
+  
+  .kuai h1{
+     height: 60px;
+     margin-top: 20px;
+     font-size: 40px;
+     color: rgb(97, 97, 97);
+     border-bottom: 1px solid rgb(87, 87, 87);
+  }
+  .btn_hang{
+   margin-top: 10px;
+    height: 60px;
+    background: blue;
+  }
+  .btn2{
+    border: none;
+    width: 50%;
+    height: 100%;
+    cursor: pointer;
+  }
+  .btn2:nth-child(1){
+    background: rgb(107, 108, 108);
+    color: #fff;
+    transition: all 0.3s;
+    
+  }
+  .btn2:nth-child(2){
+    color: #fff;
+    background: #f37979;
+    transition: all 0.3s;
+  }
+  .btn2:nth-child(1):hover{
+   background: rgb(156, 155, 155);
+  
+  }
+  .btn2:nth-child(2):hover{
+    background: #f59d9d;
+  
+  }
+  .sstishi{
+    position: absolute;
+    left: 40%;
+    top: 50%;
+    transform: translate(-50%, -40%);
+  }

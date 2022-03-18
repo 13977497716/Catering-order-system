@@ -1,0 +1,245 @@
+#c3{
+    width: 100%;
+     /* max-height: 100%;
+    overflow: auto;  */
+    height: 100%;
+  
+    position: absolute;
+    z-index: 999;
+  }
+  header{
+    height: 60px;
+   
+    line-height: 60px;
+  }
+  header span{
+    font-size: 20px;
+    margin-left: 60px;
+    color: rgb(84, 84, 84);
+    font-weight:200;
+  }
+  header::before{
+    content: '';
+    display: inline-block;
+    position: absolute;
+    top: 15px;
+    left: 10px;
+    width: 30px;
+    height: 30px;
+    background: url("/img/tx.png") no-repeat;
+    background-size: cover;
+  }
+  .user_kuai{
+    width: 85%;
+    height: 120px;
+  
+    margin-top: 20px;
+    margin-left: 60px;
+    display: flex;
+    justify-content:space-between;
+  }
+  .user_kuai span{
+     width: 170px;
+     height: 120px;
+     background: #bebebe;
+     border-radius: 10px;
+     text-align: center;
+     padding: 20px 10px;
+    transition: all 0.4s;
+  }
+  .user_kuai span:hover{
+    box-shadow: 0 0 15px rgb(92, 92, 92);
+    transform: scale(1.1);
+  }
+  .user_kuai span h2{
+    color: #fff;
+   
+  }
+  .user_kuai span p{
+    color: #fff;
+    font-size: 60px;
+   
+  }
+  .user_kuai span:nth-child(3){
+    position: relative;
+    background: #0083ee;
+  }
+  .user_kuai span:nth-child(3) p{
+    font-size: 40px;
+   margin: 10px auto;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+  
+  /* 表格 */
+  .container{ 
+    width:70%;
+    margin-left: 60px;
+    margin-top: 2%;
+  
+  
+  }
+  .container table{
+    /* 让表格的边框合并在一起 */
+    border-collapse: collapse;
+    width: 100%;
+    text-align: center;
+  }
+  
+  
+  .container  tr th,
+  .container  tr td{
+   position: relative;
+  font-weight: 600;
+  }
+  .container  tr th{
+    color: #fff;
+   background: #808080;
+   height: 50px;
+   font-size: 19px;
+  
+  }
+  
+  .container tbody tr{
+    border-bottom: 1px solid rgb(192, 192, 192);
+    background: #fff;
+  }
+  .container  tr td{
+  
+    height: 50px;
+    color: rgb(125, 125, 125);
+  }
+  .container  tr td:nth-child(2){
+    color: rgb(192, 19, 19);
+    line-height: 50px;
+  }
+  
+  .container  th:nth-child(1),
+  .container  td:nth-child(1){
+    width: 3%;
+   
+  }
+  
+  .container th:nth-child(2){
+    width: 25%;
+  }
+  .container th:nth-child(3){
+     width: 25%;
+  }
+  .container th:nth-child(4){
+    width: 25%;
+  }
+  .container th:nth-child(5){
+    width: 22%;
+  }
+  .xian{
+    width: 3px;
+    height: 30px;
+    background: crimson;
+    margin: 0 auto;
+  }
+  
+  /* th的图标 */
+  .tx{
+    width: 35px;
+    height: 35px;
+    background: crimson;
+    position: absolute;
+    top: 7px;
+    left: 10%;
+    background: url(/img/txbai.png) no-repeat;
+    background-size: cover;
+    
+  }
+  .mima{
+     width: 35px;
+    height: 35px;
+    background: crimson;
+    position: absolute;
+    top: 7px;
+     left: 10%;
+    background: url(/img/mimasuo.png) no-repeat;
+    background-size: cover;
+  }
+  .qx{
+     width: 35px;
+    height: 35px;
+    background: crimson;
+    position: absolute;
+    top: 7px;
+     left: 12%;
+    background: url(/img/qx.png) no-repeat;
+    background-size: cover;
+  }
+  .cz{
+      width: 35px;
+    height: 35px;
+    background: crimson;
+    position: absolute;
+    top: 7px;
+     left: 12%;
+    background: url(/img/cz.png) no-repeat;
+    background-size: cover;
+  }
+  .container tbody button{
+    border: none;
+    width: 50px;
+    margin: 0 5px;
+    height: 30px;
+    cursor: pointer;
+    transition: all 0.2s;
+  }
+  .container tbody button:hover{
+   transform: scale(0.9);
+  }
+  
+  .container tbody button:nth-child(1){
+    color: #fff;
+    background-color: rgb(31, 131, 245);
+    box-shadow: 0 0 7px rgb(133, 133, 133);
+  }
+  .container tbody button:nth-child(2){
+    color: #fff;
+     background-color: rgb(227, 31, 80);
+      box-shadow: 0 0 7px rgb(133, 133, 133);
+  }
+  .fenye2{
+     bottom: 15%;
+  }
+  .add_btn2{
+    width: 70%;
+    height: 60px;
+    margin: 10px auto;
+    margin-left: 60px;
+    text-align: center;
+    line-height: 60px;
+    background: rgb(45, 104, 241);
+    border: 1px solid rgb(159, 159, 159);
+    box-shadow: 0 0 10px rgb(82, 82, 82);
+    transition: all 0.2s;
+    color: #fff;
+  }
+  .add_btn2:hover{
+    transform: scale(0.95);
+  }
+
+  .codename{
+    width: 150px;
+    height: 40px;
+    background: #3a3a3a;
+    position: absolute;
+    left: 0;
+    top: 0;
+    transition: all 0.5s;
+    opacity: 0;
+    box-shadow: 0 0 10px rgb(236, 236, 236);
+    text-align: center;
+    line-height: 40px;
+    color: #fff;
+    border-radius: 20px;
+    
+  }
+.user_kuai span:nth-child(3):hover .codename{
+  transform: translate(9px,-43px);
+    opacity: 1;
+  }
